@@ -714,16 +714,16 @@ header{
         flex-direction: column;
         gap: 0;
         top: 0;
-        left: 0; 
-        height: 100vh;  
-        background: var(--color-primary);
+        left: 0;
+        height: 100vh;
+        background: #ffffff;
         width: 250px;
         z-index: 10;
-        box-shadow: 0 0 1rem var(--color-white); 
+        box-shadow: 0 0 1rem var(--color-white);
         text-align: left;
-        overflow: hidden;  
-        left: -270px;   
-     }
+        overflow: hidden;
+        left: -270px;
+    }
      nav .container ul li a{        
         /* background: var(--color-on-black);     */
         display: inline-block; 
