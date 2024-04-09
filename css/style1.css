@@ -173,7 +173,7 @@ header{
 .header-container h1{
     margin-bottom: 10px;
     color: var(--color-white);
-    font-size: 50px;
+    /* font-size: 50px; */
 }
 .header-container span {
     color: #182A3A;
@@ -982,6 +982,18 @@ header{
         margin-bottom: 2rem ; 
     }
 }
+
+@media (min-width: 300px) and (max-width: 500px) {
+    .header-right img {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .add {
+        width: 100%;
+        border-radius: 30px;
+    }
+  }
+
 
 /* .....................MEDIDA SCRIN END................... */
 /* .....................MEDIDA SCRIN END................... */
